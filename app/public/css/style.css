@@ -53,7 +53,7 @@
 
 #title {
     font-family: 'Roboto', sans-serif;
-    font-size: 3vw;
+    font-size: 4vw;
     color: darkblue;
     letter-spacing: 2px;
     margin-top: 40px;
@@ -79,12 +79,12 @@
 }
 
 .top-img {
-    width: 49%;
+    width: 100%;
     float: left;
     clear: both;
     box-shadow: 0px 0px 5px 5px #d3d3d3;
     margin-right: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 .pre-paragraph {
     margin-top: 20px;
@@ -93,7 +93,7 @@
 .big-letter {
     float: left;
     color: rgba(0,0,0,0.5);
-    font-size: 8vw;
+    font-size: 7vw;
     line-height: 60px;
     padding-top: 4px;
     padding-right: 8px;
@@ -103,7 +103,7 @@
 }
 
 .image-font {
-    font-size: 1.4vw;
+    font-size: 2vw;
     color: darkblue;
     letter-spacing: 1px;
     margin-top: 25px;
@@ -156,4 +156,38 @@
 .mybtn:hover {
     text-decoration: underline;
     border: 10px solid darkblue;
+}
+
+.mid-container {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px yellow;
+    box-shadow: inset 0 1px 1px yellow;
+    font-family: 'Short Stack', cursive;
+    text-align: center;
+}
+
+.mid-btn  {
+    width: 100%;
+    margin-top: 24px;
+    background-color: red;
+    border: 1px solid whitesmoke;
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+}
+.mid-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mid-txt {
+    font-weight: 800;
+    margin-top: 17px;
+    font-size: 24px;
+    color: red;
 }
