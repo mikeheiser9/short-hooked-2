@@ -53,10 +53,62 @@
 
 #title {
     font-family: 'Roboto', sans-serif;
-    font-size: 4vw;
-    color: darkblue;
+    font-size: 3.9vw;
+    color: red;
     letter-spacing: 2px;
     margin-top: 40px;
+    width: 100%;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text-left {
+    text-align: left!important;
+    margin-left: -15px;
+    font-size: 33px;
+    color: darkblue;
+}
+
+
+.btn-row {
+    width: 100%;
+}
+
+.card-container {
+    position: relative;
+    border: 2px solid black;
+    width: 100%;
+    height: 170px;
+    background-color: beige;
+    padding: 40px;
+    float: right;
+    /* margin-left: 55%; */
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 8px #d3d3d3;
+}
+
+.card-txt {
+    position: absolute;
+    font-size: 26px;
+    margin-top: -33px;
+    text-align: center;
+    margin-left: -39px;
+    color: black;
+}
+
+.top-btn {
+    width: 90%;
+    margin-left: -15px;
+    margin-top: 58px;
+    position: absolute;
+    height: auto;
+    background-color: red;
+    color: white;
+    float: right;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px #d3d3d3;
 }
 
 .orderNow {
@@ -65,6 +117,7 @@
     font-size: 1.6vw;
     color: darkblue
 }
+
 .orderNow:hover {
     background-color: red;
 }
@@ -107,6 +160,17 @@
     color: red;
     letter-spacing: 1px;
     margin-top: 25px;
+}
+
+.container-mid {
+    width: 100%;
+    border: 1px solid darkblue;
+    background-color: lightblue;
+    margin-bottom: 80px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px #d3d3d3;
+
 }
 
 .bold-break {
@@ -183,6 +247,28 @@
 .mid-btn:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.middle-btn {
+    width: 100%;
+    background-color: red;
+    border: 1px solid whitesmoke;
+    color: white;
+    padding: 35px;
+    font-size: 40px;
+    border-radius: 9px; 
+    box-shadow: 0px 0px 5px 5px #d3d3d3;
+}
+.middle-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-middle {
+    color: darkblue;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .mid-txt {
